@@ -151,8 +151,8 @@ a {
 }
 
 .hero .buttons {
-  margin-left: 635px;
-  margin-right: 635px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 48px;
   padding: 16px 32px;
   border-color: transparent;
