@@ -11,47 +11,66 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-     <div class="container">
-        <nav class="site-nav">
-          <a href="" class="logo"
-            ><span class="logo-span">Web</span>Studio</a
-          >
-          <ul class="site-nav-list list">
-            <li><a href="./index.html" class="link">Studio</a></li>
-            <li><a href="./portfolio.html" class="link">Portfolio</a></li>
-            <li><a href="" class="link">Contacts</a></li>
+    <header class="head">
+      <div class="container">
+        <div class="header">
+          <nav class="site-nav">
+            <a href="" class="logo"><span class="logo-span">Web</span>Studio</a>
+            <ul class="site-nav-list list">
+              <li class="site-nav-item">
+                <a href="./index.html" class="link">Studio</a>
+              </li>
+              <li class="site-nav-item">
+                <a href="./portfolio.html" class="link">Portfolio</a>
+              </li>
+              <li class="site-nav-item">
+                <a href="" class="link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="contacts-list list">
+            <li>
+              <a href="mailto:info@devstudio.com" class="link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
+            </li>
           </ul>
-        </nav>
-        <ul class="contacts-list list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
-     </div>
+        </div>
+      </div>
     </header>
     <main>
-      <section>
+      <section class="gallery section">
         <div class="container">
           <h1 class="visually-hidden">Our works</h1>
           <ul class="button-list list">
-            <li><button type="button" class="buttons">All</button></li>
-            <li><button type="button" class="buttons">Web Site</button></li>
-            <li><button type="button" class="buttons">App</button></li>
-            <li><button type="button" class="buttons">Design</button></li>
-            <li><button type="button" class="buttons">Marketing</button></li>
+            <li class="button-item">
+              <button type="button" class="buttons">All</button>
+            </li>
+            <li class="button-item">
+              <button type="button" class="buttons">Web Site</button>
+            </li>
+            <li class="button-item">
+              <button type="button" class="buttons">App</button>
+            </li>
+            <li class="button-item">
+              <button type="button" class="buttons">Design</button>
+            </li>
+            <li class="button-item">
+              <button type="button" class="buttons">Marketing</button>
+            </li>
           </ul>
           <ul class="projects-list list">
-            <li>
+            <li class="projects-item">
               <a href="">
                 <img
                   src="./images/img-p-1.jpg"
@@ -63,7 +82,7 @@
                 <p>App</p>
               </a>
             </li>
-            <li>
+            <li class="projects-item">
               <a href="">
                 <img
                   src="./images/img-p-2.jpg"
@@ -75,7 +94,7 @@
                 <p>Marketing</p>
               </a>
             </li>
-            <li>
+            <li class="projects-item">
               <a href="">
                 <img
                   src="./images/img-p-3.jpg"
@@ -87,7 +106,7 @@
                 <p>App</p>
               </a>
             </li>
-            <li>
+            <li class="projects-item">
               <a href="">
                 <img
                   src="./images/img-p-4.jpg"
@@ -99,7 +118,7 @@
                 <p>Marketing</p>
               </a>
             </li>
-            <li>
+            <li class="projects-item">
               <a href="">
                 <img
                   src="./images/img-p-5.jpg"
@@ -111,8 +130,8 @@
                 <p>Design</p>
               </a>
             </li>
-            <li>
-             <a href="">
+            <li class="projects-item">
+              <a href="">
                 <img
                   src="./images/img-p-6.jpg"
                   alt="girl in headphones"
@@ -121,9 +140,9 @@
                 />
                 <h2>Online Courses</h2>
                 <p>Marketing</p>
-             </a>
+              </a>
             </li>
-            <li>
+            <li class="projects-item">
               <a href="">
                 <img
                   src="./images/img-p-7.jpg"
@@ -135,7 +154,7 @@
                 <p>Design</p>
               </a>
             </li>
-            <li>
+            <li class="projects-item">
               <a href="">
                 <img
                   src="./images/img-p-8.jpg"
@@ -147,7 +166,7 @@
                 <p>Web Site</p>
               </a>
             </li>
-            <li>
+            <li class="projects-item">
               <a href="">
                 <img
                   src="./images/img-p-9.jpg"
@@ -164,13 +183,15 @@
       </section>
     </main>
     <footer class="page-footer">
-     <div class="container">
-        <a href="" class="logo"><span class="logo-span">Web</span>Studio</a>
-        <p>
-          Increase the flow of customers and sales for your business with digital
-          marketing & growth solutions.
-        </p>
-     </div>
+      <div class="container">
+        <div class="logo-block">
+          <a href="" class="logo"><span class="logo-span">Web</span>Studio</a>
+          <p>
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
