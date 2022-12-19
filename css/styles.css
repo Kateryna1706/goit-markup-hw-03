@@ -138,6 +138,7 @@ a {
 
 /*index.html*/
 .hero {
+  text-align: center;
   background-color: var(--secondary-color);
 }
 
