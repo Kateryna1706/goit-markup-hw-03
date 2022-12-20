@@ -20,14 +20,13 @@ ul {
   padding: 0;
 }
 
+p,
 h1,
 h2,
 h3 {
   margin: 0;
 }
-p {
-  margin: 0;
-}
+
 .container {
   width: 1158px;
   margin-left: auto;
