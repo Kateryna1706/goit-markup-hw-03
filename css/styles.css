@@ -30,7 +30,8 @@ p {
 }
 .container {
   width: 1158px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -69,6 +70,12 @@ a {
 
 .paragraph {
   margin-top: 8px;
+}
+
+.list img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 /*header*/
@@ -143,6 +150,9 @@ a {
 }
 
 .heading-hero {
+  width: 492px;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 600;
   font-size: 56px;
   line-height: 1.07;
@@ -203,10 +213,6 @@ a {
   color: var(--primary-text-color);
 }
 
-.activity {
-  padding-top: 0;
-  padding-bottom: 143px;
-}
 
 .activity-list {
   display: flex;
@@ -229,7 +235,6 @@ a {
 
 .team {
   background-color: var(--background-our-team-buttons);
-  padding-top: 97px;
 }
 
 .team-list {
@@ -247,16 +252,18 @@ a {
   color: var(--secondary-color);
 }
 
-.team-heading-item {
-  margin-top: 32px;
-}
 
 .team-item {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-  padding-bottom: 32px;
   background-color: var(--primary-white-color);
+}
+
+.team-grouping {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+  0px 1px 1px rgba(46, 47, 66, 0.16),
+   0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-list h3 {
@@ -287,6 +294,10 @@ a {
   padding-bottom: 100px;
 }
 
+.logo-block {
+  width: 264px;
+}
+
 footer .logo {
   color: var(--background-our-team-buttons);
 }
@@ -307,6 +318,13 @@ footer .logo {
 .gallery {
   padding-top: 96px;
 }
+
+.gallery-grouping {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+}
+
 .gallery .button-list {
   display: flex;
   justify-content: center;
@@ -350,7 +368,6 @@ footer .logo {
 
 .projects-item {
   border-bottom: 0.5px solid #f4f4fd;
-  padding-bottom: 32px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
@@ -360,8 +377,6 @@ footer .logo {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
-  margin-top: 32px;
-  padding-left: 16px;
 }
 
 .projects-list p {
@@ -370,5 +385,4 @@ footer .logo {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   margin-top: 8px;
-  padding-left: 16px;
 }
