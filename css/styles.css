@@ -339,6 +339,7 @@ footer .logo {
 
 .button-list .buttons {
   padding: 8px 16px;
+  border: 1px solid #E7E9FC;
   border-radius: 4px;
   font-weight: 600;
   font-size: 16px;
@@ -351,6 +352,7 @@ footer .logo {
 
 .button-list .buttons:hover,
 .button-list .buttons:focus {
+  border: 1px solid var(--accent-color);
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
